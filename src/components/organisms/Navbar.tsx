@@ -8,7 +8,7 @@ export interface INavbarProps {}
 
 export const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 w-full  bg-white/60 backdrop-blur backdrop-filter">
+    <nav className="sticky top-0 z-50 w-full h-full  bg-white/60 backdrop-blur backdrop-filter">
       <Container className="h-12">
         <div className="flex items-center justify-between h-full">
           <Brand />

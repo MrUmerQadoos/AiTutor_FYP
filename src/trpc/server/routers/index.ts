@@ -1,5 +1,5 @@
 import { createTRPCRouter, protectedProcedure, publicProcedure } from '..'
-import { prisma } from '@/db'
+import { prisma } from '@/db/db'
 import { adminRoutes } from './admins'
 import { coursesRoutes } from './courses'
 import { chapterRoutes } from './chapters'

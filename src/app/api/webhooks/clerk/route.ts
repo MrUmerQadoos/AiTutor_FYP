@@ -1,5 +1,5 @@
 import { WebhookEvent } from '@clerk/nextjs/server'
-import { prisma } from '@/db'
+import { prisma } from '@/db/db'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {

@@ -1,6 +1,6 @@
 import OpenAI from 'openai'
 import { getModelName } from '@/util'
-import { prisma } from '@/db'
+import { prisma } from '@/db/db'
 import { AIModel } from '@prisma/client'
 import { EXAM_MODEL, MARKS_PER_QUESTION, MODEL_COSTS } from './constants'
 
